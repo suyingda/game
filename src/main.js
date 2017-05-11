@@ -17,7 +17,8 @@ Vue.use(VueRouter)
 import routers from './routers'
  
 const router = new VueRouter({
- mode: 'abstract',
+ // mode: 'abstract',
+  mode: 'hash',
  routes: routers
 })
  
