@@ -17,7 +17,7 @@ Vue.use(VueRouter)
 import routers from './routers'
  
 const router = new VueRouter({
- mode: 'history',
+ mode: 'hash',
  routes: routers
 })
  
