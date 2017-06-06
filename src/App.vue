@@ -3,16 +3,18 @@
 
         <hello></hello>
         <router-view></router-view>
+<vuexdome></vuexdome>
     </div>
 </template>
 
 <script>
     import Hello from './components/Hello'
-
+     import vuexdome from './vuex/store'
     export default {
         name      : 'app',
         components: {
-            Hello
+            Hello,
+            vuexdome
         }
     }
 </script>

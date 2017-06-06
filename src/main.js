@@ -10,22 +10,17 @@ Vue.config.productionTip = false
 Vue.use(AlertPlugin)
 Vue.use(ToastPlugin)
 
+/*vuex*/
+import store from './store'
 
+ 
+import router from './routers'
 
-import VueRouter from 'vue-router'
-Vue.use(VueRouter)
-import routers from './routers'
- 
-const router = new VueRouter({
- // mode: 'abstract',
-  mode: 'hash',
- routes: routers
-})
- 
  
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })
