@@ -12,8 +12,7 @@ Vue.use(ToastPlugin)
 
 /*vuex*/
 import store from './store'
-
- 
+/*router*/ 
 import router from './routers'
 
  

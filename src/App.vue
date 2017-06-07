@@ -3,18 +3,21 @@
 
         <hello></hello>
         <router-view></router-view>
-<vuexdome></vuexdome>
+<!-- <vuexdome></vuexdome> -->
+<fotter></fotter>
     </div>
 </template>
 
 <script>
     import Hello from './components/Hello'
      import vuexdome from './vuex/store'
+     import fotter from './components/fotter'
     export default {
         name      : 'app',
         components: {
             Hello,
-            vuexdome
+            vuexdome,
+            fotter
         }
     }
 </script>
