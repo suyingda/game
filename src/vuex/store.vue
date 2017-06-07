@@ -2,7 +2,8 @@
 	<div>
 	我是vuex - dome<br/>
 	<button @click='increment'>按钮</button>
-{{count}}
+{{count}}<br/>{{abcount}}
+<button @click='ab'>按钮</button>
 	</div>
  
 </template>
@@ -16,16 +17,21 @@ import { mapActions,mapGetters  } from 'vuex'
 	},
 	 methods:{
 	    ...mapActions([
-	        'increment'  
+	        'increment',
+	        'ab'  
 	    ]),
 	 },
 	 computed: {
     ...mapGetters([
-      'count'
+      'count',
+      'abcount'
     ])
   },
+ 
   mounted(){
       console.log(this.$store)
+
+
   }
  
 }

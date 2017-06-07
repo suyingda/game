@@ -1,12 +1,16 @@
-import { INCREMENT } from './types.js'
+import { INCREMENT,ABCOUNT } from './types.js'
 import getters from './getters.js'
 
 const state= {
-	count:20
+	count:20,
+	abcount:true
 }
 const mutations={
 	[INCREMENT](state){
 		state.count++
+	},
+	[ABCOUNT](state,bool){
+		state.abcount  =bool  
 	}
 }
 

@@ -3,8 +3,8 @@
 
         <hello></hello>
         <router-view></router-view>
-<!-- <vuexdome></vuexdome> -->
-<fotter></fotter>
+<vuexdome></vuexdome>
+<fotter v-show='abcount'   ></fotter>
     </div>
 </template>
 
@@ -12,13 +12,22 @@
     import Hello from './components/Hello'
      import vuexdome from './vuex/store'
      import fotter from './components/fotter'
+     import {mapGetters} from 'vuex'
     export default {
         name      : 'app',
         components: {
             Hello,
             vuexdome,
             fotter
-        }
+        },
+        computed: {
+    ...mapGetters([
+      'abcount'
+    ])
+  },
+  mounted(){
+    console.log(this.abcount)
+  }
     }
 </script>
 
