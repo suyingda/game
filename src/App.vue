@@ -2,8 +2,10 @@
     <div id="app">
 
         <hello></hello>
+        <div class="center">
         <router-view></router-view>
-<vuexdome></vuexdome>
+        </div>
+<!-- <vuexdome></vuexdome> -->
 <fotter v-show='abcount'   ></fotter>
     </div>
 </template>
@@ -34,5 +36,9 @@
 <style>
  *{
      margin:0; padding:0;
+ }
+ .center{
+    
+    margin-bottom: 55px;
  }
 </style>

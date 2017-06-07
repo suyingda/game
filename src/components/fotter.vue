@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="weui-tabbar">
 <!--     <group>
   <cell is-link title="Simple" link="/component/tabbar-simple"></cell>
   <cell is-link title="Switch icons" link="/component/tabbar-icon"></cell>
 </group> -->
-    <tabbar>
+    <tabbar >
       <tabbar-item>
         <img slot="icon" src="../assets/logo.png">
         <span slot="label">Wechat</span>
@@ -38,3 +38,12 @@ export default {
   }
 }
 </script>
+<style  scoped>
+    .weui-tabbar{
+        position: fixed !important;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+</style>
+

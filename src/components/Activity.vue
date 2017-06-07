@@ -2,7 +2,7 @@
     <div>
 
         <h1> 敬请期待....</h1>
-        <button @click='abcount'>按钮</button>
+  <!--       <button @click='abcount'>按钮</button> -->
     </div>
 </template>
 <style scoped>
