@@ -1,12 +1,12 @@
 <template>
     <div>
         <tab>
-            <tab-item selected @on-item-click="goFirst">首页</tab-item>
-            <tab-item @on-item-click="goFirst2">物品</tab-item>
-            <tab-item @on-item-click="goFirst3">活动</tab-item>
-        </tab>
+           <tab-item selected @on-item-click="goFirst">首页</tab-item>
+           <tab-item @on-item-click="goFirst2">物品</tab-item>
+           <tab-item @on-item-click="goFirst3">活动</tab-item>
+       </tab>
 
-    </div>
+   </div>
 </template>
 
 
@@ -37,10 +37,10 @@
                 this.$router.push({path: '/Thegoods'})
             },
             goFirst3(){
-              this.$router.push({path: '/Activity'})
-            },
-        },
-    }
+             this.$router.push({path: '/Activity'})
+         },
+     },
+ }
 </script>
 
 <style scoped>

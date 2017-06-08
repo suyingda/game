@@ -5,8 +5,7 @@ export default {
 	increment:({commit})=>{
 		commit(types.INCREMENT)
 	},
-		ab:({commit},bool)=>{
+	ab:({commit},bool)=>{
 		commit(types.ABCOUNT,bool)
 	}
 }
- 
