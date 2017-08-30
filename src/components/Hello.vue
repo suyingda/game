@@ -1,11 +1,12 @@
 <template>
     <div>
+        <div style="position: fixed; top:0; left:0;right:0;  ">
         <tab>
            <tab-item selected @on-item-click="goFirst">首页</tab-item>
            <tab-item @on-item-click="goFirst2">物品</tab-item>
            <tab-item @on-item-click="goFirst3">活动</tab-item>
        </tab>
-
+        </div>
    </div>
 </template>
 

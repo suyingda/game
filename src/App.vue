@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <hello></hello>
     <div class="center">
       <router-view></router-view>
@@ -38,7 +37,7 @@
     margin:0; padding:0;
   }
   .center{
-
+    margin-top:46px;
     margin-bottom: 55px;
   }
 </style>

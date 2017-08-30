@@ -6,19 +6,19 @@
 </group> -->
     <tabbar >
       <tabbar-item>
-        <img slot="icon" src="../assets/logo.png">
+        <img slot="icon" src="../assets/foot1.jpg">
         <span slot="label">Wechat</span>
       </tabbar-item>
       <tabbar-item show-dot>
-        <img slot="icon" src="../assets/logo.png">
+        <img slot="icon" src="../assets/foot2.jpg">
         <span slot="label">Message</span>
       </tabbar-item>
       <tabbar-item selected link="/component/demo">
-        <img slot="icon" src="../assets/logo.png">
+        <img slot="icon" src="../assets/foot3.gif">
         <span slot="label">Explore</span>
       </tabbar-item>
       <tabbar-item badge="2">
-        <img slot="icon" src="../assets/logo.png">
+        <img slot="icon" src="../assets/foot4.jpg">
         <span slot="label">News</span>
       </tabbar-item>
     </tabbar>
