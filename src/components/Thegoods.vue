@@ -1,28 +1,34 @@
 <style scoped>
-    a{
-        color:#000;
+    a {
+        color: #000;
     }
+
     body {
         color: #000 !important;
         background-color: #c2c2c2;
         font-family: 宋体, Century Gothic, Arial, Helvetica;
     }
- li{
-     list-style: none; color:#000 !important;
- }
+
+    li {
+        list-style: none; color: #000 !important;
+    }
+
     td {
         font-size: 9pt;
     }
+
     a.ml:hover, a.mln:hover {
         color: red;
         text-decoration: underline;
     }
+
     #menuList li img {
         width: 16px;
         height: 16px;
         margin-right: 1px;
         cursor: url(http://zy.cccpan.com/zy/b_old/tp/cur/edit1.cur), default;
     }
+
     #menuList li table {
         border: 1px solid #8FBC8F;
         border-bottom: 1px solid black;
@@ -36,12 +42,13 @@
         margin-right: 0px;
         background-color: #FFFF9C;
     }
+
     #menuList li {
         list-style-type: none;
         BORDER-BOTTOM: #76C196 1px solid;
         line-height: 140%;
         padding-left: 0px;
-        color:red;
+        color: red;
     }
 </style>
 <template>
@@ -56,7 +63,7 @@
                         </div>
                         <div id="mainMenu">
                             <ul id="menuList">
-                                <li id="x1457004_0|011000">
+                                <li id="x1457004_0|011000" @click="Theone()">
                                     <table cellspacing="1">
                                         <tbody>
                                         <tr>
@@ -69,7 +76,7 @@
                                     <img border="0" src="http://zy.cccpan.com/zy/b_old/tp/ml/mlgk.gif"><a href="javascript:;" class="ml">① 【】【常用工具】一键领枪+清理数据+修复文件+游戏必备+等等多功能</a><label></label>
                                     <ul style="display:none;" id="ZMm_1457004" class="menu"></ul>
                                 </li>
-                                <li id="x1457008_14|001000">
+                                <li id="x1457008_14|001000" @click="TheSecond()">
                                     <table cellspacing="1">
                                         <tbody>
                                         <tr>
@@ -641,10 +648,18 @@
 
     export default {
         components: {},
-        data () {
-            return {}
+        data()
+        {
+            return {};
         },
-
-    }
+        methods   : {
+            Theone(){
+                this.$router.replace({path: '/GoodsDetail',query:{'id':1,'name':1}})
+            },
+            TheSecond(){
+                this.$router.push({path: '/GoodsDetail'})
+            }
+        },
+    };
 </script>
 

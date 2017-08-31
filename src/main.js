@@ -15,7 +15,10 @@ import store from './store'
 /*router*/ 
 import router from './routers'
 
-
+/**
+ * axios
+ */
+import  axios from './fetch'
 new Vue({
 	el: '#app',
 	router,
