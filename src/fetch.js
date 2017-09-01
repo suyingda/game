@@ -1,6 +1,11 @@
 import axios from 'axios';
 import {md5, querystring} from 'vux';
-axios.defaults.baseURL                      = 'http://demo-api-muc.mvc.pub/';
+
+
+
+
+/*axios.defaults.baseURL                      = 'http://demo-api-muc.mvc.pub/';*/
+axios.defaults.baseURL                      = '';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 var instance = axios.create();
