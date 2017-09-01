@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b9262f-37f5-4c57-9525-d2415f41f963" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.559ee3ee99bafbe8a94faee046ab3d9a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.559ee3ee99bafbe8a94faee046ab3d9a.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.5388a4c9e5c394fe293e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.5388a4c9e5c394fe293e.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.ce7cb9575dfd9a64a6d7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.ce7cb9575dfd9a64a6d7.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.2eb0db27484df4caa64a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.2eb0db27484df4caa64a.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Goods_json.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Goods.vue" afterPath="$PROJECT_DIR$/src/components/Goods.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch.js" afterPath="$PROJECT_DIR$/src/fetch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/static/data/Goods.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
-              <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+              <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -92,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/views/GoodsDetail2.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="542">
-              <caret line="60" column="25" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
+              <caret line="60" column="25" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -315,12 +322,12 @@
       <workItem from="1493906814525" duration="1100000" />
       <workItem from="1493947161623" duration="33000" />
       <workItem from="1504056921471" duration="34615000" />
-      <workItem from="1504227795057" duration="18153000" />
+      <workItem from="1504227795057" duration="18511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56205000" />
+    <option name="totallyTimeSpent" value="56563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +340,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16012725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,7 +348,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1779476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1779476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -820,7 +826,7 @@
     <entry file="file://$PROJECT_DIR$/src/views/GoodsDetail2.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
-          <caret line="60" column="25" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
+          <caret line="60" column="25" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -862,7 +868,7 @@
     <entry file="file://$PROJECT_DIR$/static/data/Goods.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
-          <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <caret line="119" column="41" lean-forward="false" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
           <folding />
         </state>
       </provider>
