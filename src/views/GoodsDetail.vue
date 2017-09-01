@@ -8,6 +8,7 @@
 </style>
 <template>
     <div>
+
         <h1>选择商品</h1>
         <div>
             在线客服：459913591
@@ -20,14 +21,16 @@
             单价：
         </div>
         <div>
-            {{list.img}}
+            <Goods></Goods>
         </div>
     </div>
 </template>
 <script>
     import axios from './../fetch.js';
+    import Goods from './../components/Goods.vue';
 
     export default {
+        components: {Goods},
         data()
         {
             return {
@@ -38,52 +41,58 @@
             };
 
         },
+        props     : {
+            id: {
+                type: String,
+            },
+        },
         mounted()
         {
-/*            axios.get('/wap/index/scrollWiper.Get')
-                 .then((response) => {
-                     this.list = response.data.ret[0];
-                 })
-                 .catch((error) => {
-                     console.log(error);
-                 });
-            axios.get('/wap/news/oneNews.Get?nid=53134013631565824')
-                 .then((response) => {
-                     console.log(response.data.ret.publish_moment + '我是第二个');
-                 })
-                 .catch((error) => {
-                     console.log(error);
-                 });
-            axios.get('/wap/banner/bannerList.Get', {
-                     params: {
-                         route_uri: '/home',
-                         type_id  : 1,
-                     },
-                 })
-                 .then((response) => {
 
-                 })
-                 .catch((error) => {
-                     console.log(error);
-                 });*/
+            /*            axios.get('/wap/index/scrollWiper.Get')
+                             .then((response) => {
+                                 this.list = response.data.ret[0];
+                             })
+                             .catch((error) => {
+                                 console.log(error);
+                             });
+                        axios.get('/wap/news/oneNews.Get?nid=53134013631565824')
+                             .then((response) => {
+                                 console.log(response.data.ret.publish_moment + '我是第二个');
+                             })
+                             .catch((error) => {
+                                 console.log(error);
+                             });
+                        axios.get('/wap/banner/bannerList.Get', {
+                                 params: {
+                                     route_uri: '/home',
+                                     type_id  : 1,
+                                 },
+                             })
+                             .then((response) => {
 
-            axios.post('/Member/Account/perfectInfo.Post',{
-                    'cardId'   : 420984198703247511,
-                    'cardName' : '邓永',
-                    'accountId': '',
-                 })
-                 .then((response) => {
+                             })
+                             .catch((error) => {
+                                 console.log(error);
+                             });*/
 
-                 })
-                 .catch((error) => {
-                     console.log(error);
-                 });
+            /*   axios.post('/Member/Account/perfectInfo.Post',{
+                       'cardId'   : 420984198703247511,
+                       'cardName' : '邓永',
+                       'accountId': '',
+                    })
+                    .then((response) => {
+
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                    });*/
 
         },
-        watch  : {
+        watch     : {
             // 如果路由有变化，会再次执行该方法
             '$route': '',
         },
-        methods: {},
+        methods   : {},
     };
 </script>

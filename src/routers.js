@@ -15,7 +15,7 @@ import GoodsDetail2 from './views/GoodsDetail2.vue';
 
 const routes = [
     {path: '/', component: header},
-    {path: '/header', name: 'header', component: header},
+    {path: '/header', name: 'header', component: resolve => require(['./components/header.vue'], resolve) },
     {path: '/Thegoods', name: 'Thegoods', component: Thegoods},
     {path: '/Activity', name: 'Activity', component: Activity, meta: {abcount: false},},
     {path: '/GoodsDetail', name: 'GoodsDetail', component: GoodsDetail},

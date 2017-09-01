@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
   import Hello from './components/Hello'
   import vuexdome from './vuex/store'
   import fotter from './components/fotter'

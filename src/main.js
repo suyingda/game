@@ -9,7 +9,10 @@ import { AlertPlugin, ToastPlugin } from 'vux'
 
 Vue.use(AlertPlugin)
 Vue.use(ToastPlugin)
-
+/**
+ * font-awesome
+ */
+import 'font-awesome/css/font-awesome.min.css'
 /*vuex*/
 import store from './store'
 /*router*/ 

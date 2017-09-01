@@ -653,12 +653,14 @@
             return {};
         },
         methods   : {
-            Theone(){
-                this.$router.replace({path: '/GoodsDetail',query:{'id':1,'name':1}})
+            Theone()
+            {
+                this.$router.push({path: '/GoodsDetail', query: {id: 1, name: 'age'}});
             },
-            TheSecond(){
-                this.$router.push({path: '/GoodsDetail'})
-            }
+            TheSecond()
+            {
+                this.$router.push({path: '/GoodsDetail',name:'GoodsDetail', params: {num: 123}});
+            },
         },
     };
 </script>
